@@ -37,11 +37,7 @@ This is a windows app written to call the Sequence account RESTful endpoint and 
 
 ### SQL Database Creation
 
-In the folder SQL are all the SQL files required to create the database, tables and views.
-I created a local MS SQL Server database, but these could be used to create in Azure or another database type.
-The only hard requirement is the Balances table itself.
-The accounts items can be used to add additional descritive metadata for accounts and can be extended as needed.
-The vw_MostRecentBalances return the most recent balances for all accounts excluding those that have a zero balance.
+- All the required database schema objects can be created using the DDL kept in this GitHub repository: [Guyton-Klinger-Withdrawals](https://github.com/CaveArnold/Guyton-Klinger-Withdrawals)
 
 ### Install
 
